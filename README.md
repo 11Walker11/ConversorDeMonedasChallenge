@@ -40,7 +40,7 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
     - Al iniciar la aplicación, se presentará un menú con opciones para convertir entre USD y las monedas soportadas (MXN, ARS, COP).
     - Seleccione una opción introduciendo el número correspondiente.
     - Ingrese la cantidad a convertir y la aplicación mostrará el resultado.
-    ```
+    
 5. **Usar el menú de la aplicación**:
     - Al iniciar la aplicación, verá un menú con las siguientes opciones:
         ```
