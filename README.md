@@ -1,4 +1,4 @@
-# Currency Converter Application
+# Conversor de Monedas 
 
 ## Descripción del Proyecto
 La aplicación de conversión de monedas es una herramienta sencilla que permite a los usuarios convertir cantidades de dólares estadounidenses (USD) a varias monedas latinoamericanas y viceversa. Utiliza la API de ExchangeRate-API para obtener las tasas de cambio actuales y proporciona una interfaz de línea de comandos para que los usuarios puedan realizar conversiones fácilmente.
