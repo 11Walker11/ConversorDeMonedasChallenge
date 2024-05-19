@@ -1,9 +1,9 @@
 # Conversor de Monedas 
 
-## Descripción del Proyecto
+## :file_folder: Descripción del Proyecto
 La aplicación de conversión de monedas es una herramienta sencilla que permite a los usuarios convertir cantidades de dólares estadounidenses (USD) a varias monedas latinoamericanas y viceversa. Utiliza la API de ExchangeRate-API para obtener las tasas de cambio actuales y proporciona una interfaz de línea de comandos para que los usuarios puedan realizar conversiones fácilmente.
 
-## Funcionalidades
+## 🔨 Funcionalidades
 - **Conversión de USD a Pesos Mexicanos (MXN)**
 - **Conversión de Pesos Mexicanos (MXN) a USD**
 - **Conversión de USD a Pesos Argentinos (ARS)**
@@ -12,13 +12,13 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
 - **Conversión de Pesos Colombianos (COP) a USD**
 - **Manejo de errores y validación de entradas para garantizar una experiencia de usuario robusta**
 
-## Cómo pueden usarlo los usuarios
+## :bulb: Cómo pueden usarlo los usuarios
 1. **Clonar el repositorio**:
     ```bash
     git clone https://github.com/11Walker11/ConversorDeMonedasChallenge.git
     cd ConversorDeMonedasChallenge
     ```
-2. **Agregar la dependencia de Gson al proyecto**:
+2. :computer:**Agregar la dependencia de Gson al proyecto**:
     - Para Maven, añade esto a tu `pom.xml`:
       ```xml
       <dependency>
@@ -31,17 +31,17 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
       ```gradle
       implementation 'com.google.code.gson:gson:2.8.8'
       ```
-3. **Ejecutar la aplicación**:
+3. :computer:**Ejecutar la aplicación**:
     ```bash
     javac -d out -cp .:path/to/gson-2.8.8.jar com/aluracursos/conversor/**/*.java
     java -cp out:path/to/gson-2.8.8.jar com.aluracursos.conversor.principal.Principal
     ```
-4. **Interacción con la aplicación**:
+4. :computer:**Interacción con la aplicación**:
     - Al iniciar la aplicación, se presentará un menú con opciones para convertir entre USD y las monedas soportadas (MXN, ARS, COP).
     - Seleccione una opción introduciendo el número correspondiente.
     - Ingrese la cantidad a convertir y la aplicación mostrará el resultado.
     
-5. **Usar el menú de la aplicación**:
+5. :computer:**Usar el menú de la aplicación**:
     - Al iniciar la aplicación, verá un menú con las siguientes opciones:
         ```
         1) Dolar ===> Peso Mexicano
@@ -57,12 +57,12 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
     - Ingrese la cantidad y presione `Enter`. La aplicación mostrará el resultado de la conversión.
     - Para salir de la aplicación, seleccione la opción `7`.
 
-## Donde los usuarios pueden encontrar eyuda sobre el proyecto
+## :mag_right: Donde los usuarios pueden encontrar eyuda sobre el proyecto
 Para obtener ayuda sobre el proyecto, los usuarios pueden:
 - Revisar la documentación del código y comentarios incluidos.
 - Visitar la página de la API utilizada [ExchangeRate-API](https://www.exchangerate-api.com/)
 
-## Autores del Proyecto
+## :stars: Autores del Proyecto
 - *ALAN AMASTAL FABIAN* - [11Walker11](https://github.com/tu-usuario)
 
 
