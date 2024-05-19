@@ -40,6 +40,22 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
     - Al iniciar la aplicación, se presentará un menú con opciones para convertir entre USD y las monedas soportadas (MXN, ARS, COP).
     - Seleccione una opción introduciendo el número correspondiente.
     - Ingrese la cantidad a convertir y la aplicación mostrará el resultado.
+    ```
+5. **Usar el menú de la aplicación**:
+    - Al iniciar la aplicación, verá un menú con las siguientes opciones:
+        ```
+        1) Dolar ===> Peso Mexicano
+        2) Peso Mexicano ===> Dolar
+        3) Dolar ===> Peso Argentino
+        4) Peso Argentino ===> Dolar
+        5) Dolar ===> Peso Colombiano
+        6) Peso Colombiano ===> Dolar
+        7) Salir
+        ```
+    - Para seleccionar una opción, introduzca el número correspondiente y presione `Enter`.
+    - La aplicación le pedirá que ingrese la cantidad de dinero que desea convertir.
+    - Ingrese la cantidad y presione `Enter`. La aplicación mostrará el resultado de la conversión.
+    - Para salir de la aplicación, seleccione la opción `7`.
 
 ## Donde los Usuarios Pueden Encontrar Ayuda Sobre su Proyecto
 Para obtener ayuda sobre el proyecto, los usuarios pueden:
