@@ -8,6 +8,8 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.text.DecimalFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class BuscarMoneda {
@@ -15,9 +17,11 @@ public class BuscarMoneda {
     private static final String URL_BASE = "https://v6.exchangerate-api.com/v6/b0ff53d179dd6715f7d68c9f/latest/";
     private static final HttpClient httpClient = HttpClient.newHttpClient();
     private final Scanner scanner;
+    DecimalFormat df = new DecimalFormat("#.##");
+    String resultadoFormateado;
 
     public BuscarMoneda() {
-        this.scanner = new Scanner(System.in);
+        this.scanner = new Scanner(System.in).useLocale(Locale.US);;
     }
 
     private Moneda buscaMonedaApi(String codigoMoneda) {
@@ -71,42 +75,48 @@ public class BuscarMoneda {
         System.out.print("Ingrese la cantidad de dólares a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirDolar(cantidad, "MXN");
-        System.out.println(cantidad + " USD son equivalentes a " + resultado + " MXN");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " USD son equivalentes a " + resultadoFormateado + " MXN ");
     }
 
     public void convertirPesoMexicanoADolar() {
         System.out.print("Ingrese la cantidad de pesos mexicanos a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirPeso(cantidad, "MXN");
-        System.out.println(cantidad + " MXN son equivalentes a " + resultado + " USD");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " MXN son equivalentes a " + resultadoFormateado + " USD");
     }
 
     public void convertirDolarAPesoArgentino() {
         System.out.print("Ingrese la cantidad de dólares a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirDolar(cantidad, "ARS");
-        System.out.println(cantidad + " USD son equivalentes a " + resultado + " ARS");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " USD son equivalentes a " + resultadoFormateado + " ARS");
     }
 
     public void convertirPesoArgentinoADolar() {
         System.out.print("Ingrese la cantidad de pesos argentinos a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirPeso(cantidad, "ARS");
-        System.out.println(cantidad + " ARS son equivalentes a " + resultado + " USD");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " ARS son equivalentes a " + resultadoFormateado + " USD");
     }
 
     public void convertirDolarAPesoColombiano() {
         System.out.print("Ingrese la cantidad de dólares a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirDolar(cantidad, "COP");
-        System.out.println(cantidad + " USD son equivalentes a " + resultado + " COP");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " USD son equivalentes a " + resultadoFormateado + " COP");
     }
 
     public void convertirPesoColombianoADolar() {
         System.out.print("Ingrese la cantidad de pesos colombianos a convertir: ");
         double cantidad = scanner.nextDouble();
         double resultado = convertirPeso(cantidad, "COP");
-        System.out.println(cantidad + " COP son equivalentes a " + resultado + " USD");
+        resultadoFormateado =df.format(resultado);
+        System.out.println(cantidad + " COP son equivalentes a " + resultadoFormateado + " USD");
     }
 
     public void cerrarScanner() {
