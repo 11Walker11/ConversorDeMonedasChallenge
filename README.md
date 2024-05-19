@@ -12,13 +12,13 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
 - **Conversión de Pesos Colombianos (COP) a USD**
 - **Manejo de errores y validación de entradas para garantizar una experiencia de usuario robusta**
 
-## Cómo Pueden Usarlo los Usuarios
+## Cómo pueden usarlo los usuarios
 1. **Clonar el repositorio**:
     ```bash
     git clone https://github.com/11Walker11/ConversorDeMonedasChallenge.git
     cd ConversorDeMonedasChallenge
     ```
-2. **Agregar la dependencia de Gson en tu proyecto**:
+2. **Agregar la dependencia de Gson al proyecto**:
     - Para Maven, añade esto a tu `pom.xml`:
       ```xml
       <dependency>
@@ -57,11 +57,10 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
     - Ingrese la cantidad y presione `Enter`. La aplicación mostrará el resultado de la conversión.
     - Para salir de la aplicación, seleccione la opción `7`.
 
-## Donde los Usuarios Pueden Encontrar Ayuda Sobre su Proyecto
+## Donde los usuarios pueden encontrar eyuda sobre el proyecto
 Para obtener ayuda sobre el proyecto, los usuarios pueden:
 - Revisar la documentación del código y comentarios incluidos.
 - Visitar la página de la API utilizada [ExchangeRate-API](https://www.exchangerate-api.com/)
-- Crear un issue en el repositorio de GitHub.
 
 ## Autores del Proyecto
 - *ALAN AMASTAL FABIAN* - [11Walker11](https://github.com/tu-usuario)
