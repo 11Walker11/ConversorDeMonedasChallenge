@@ -15,8 +15,8 @@ La aplicación de conversión de monedas es una herramienta sencilla que permite
 ## Cómo Pueden Usarlo los Usuarios
 1. **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/tu-usuario/currency-converter.git
-    cd currency-converter
+    git clone https://github.com/11Walker11/ConversorDeMonedasChallenge.git
+    cd ConversorDeMonedasChallenge
     ```
 2. **Agregar la dependencia de Gson en tu proyecto**:
     - Para Maven, añade esto a tu `pom.xml`:
@@ -48,6 +48,6 @@ Para obtener ayuda sobre el proyecto, los usuarios pueden:
 - Crear un issue en el repositorio de GitHub.
 
 ## Autores del Proyecto
-- **Tu Nombre** - *ALAN AMASTAL FABIAN* - [11Walker11](https://github.com/tu-usuario)
+- *ALAN AMASTAL FABIAN* - [11Walker11](https://github.com/tu-usuario)
 
 
